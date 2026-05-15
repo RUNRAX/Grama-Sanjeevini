@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">ಗ್ರಾಮ-ಸಂಜೀವಿನಿ</string>
+    <string name="navigation_drawer_open">ನ್ಯಾವಿಗೇಶನ್ ಡ್ರಾಯರ್ ತೆರೆಯಿರಿ</string>
+    <string name="navigation_drawer_close">ನ್ಯಾವಿಗೇಶನ್ ಡ್ರಾಯರ್ ಮುಚ್ಚಿ</string>
+    <string name="nav_header_title">ಗ್ರಾಮ-ಸಂಜೀವಿನಿ</string>
+    <string name="nav_header_subtitle">ಗ್ರಾಮೀಣ ಫಾರ್ಮಸಿ ನೆಟ್‌ವರ್ಕ್</string>
+    <string name="nav_header_desc">ನ್ಯಾವಿಗೇಶನ್ ಹೆಡರ್</string>
+    <string name="action_settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+
+    <!-- Navigation Labels -->
+    <string name="menu_search">ಹುಡುಕು</string>
+    <string name="menu_emergency">ತುರ್ತು</string>
+    <string name="menu_expiry">ಅವಧಿ ಮುಗಿಯುವ ಎಚ್ಚರಿಕೆ</string>
+    <string name="menu_pharmacist">ಫಾರ್ಮಸಿಸ್ಟ್</string>
+
+    <!-- Search Screen -->
+    <string name="search_hint">ಔಷಧದ ಹೆಸರನ್ನು ಹುಡುಕಿ…</string>
+    <string name="search_subtitle">5 ಹಳ್ಳಿಯ ಫಾರ್ಮಸಿಗಳಲ್ಲಿ ಹುಡುಕಿ</string>
+    <string name="search_no_results">ಯಾವುದೇ ಔಷಧಗಳು ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="search_result_count">%d ಫಲಿತಾಂಶಗಳು ಕಂಡುಬಂದಿವೆ</string>
+
+    <!-- Emergency Screen -->
+    <string name="emergency_title">ಜೀವ ರಕ್ಷಕ ಔಷಧಗಳು</string>
+    <string name="emergency_subtitle">ಎಲ್ಲಾ ಅಂಗಡಿಗಳಲ್ಲಿ ಪ್ರಮುಖ ಔಷಧಗಳ ಲಭ್ಯತೆ</string>
+    <string name="emergency_available">ಲಭ್ಯವಿದೆ</string>
+    <string name="emergency_unavailable">ಸ್ಟಾಕ್ ಖಾಲಿಯಾಗಿದೆ</string>
+
+    <!-- Expiry Watch Screen -->
+    <string name="expiry_title">ಅವಧಿ ಮುಗಿಯುವ ಎಚ್ಚರಿಕೆ</string>
+    <string name="expiry_subtitle">ಶೀಘ್ರದಲ್ಲೇ ಅವಧಿ ಮುಗಿಯುವ ಔಷಧಗಳು — ರಿಯಾಯಿತಿಯಲ್ಲಿ ಮಾರಿ</string>
+    <string name="expiry_critical">ಅತಿ ಮುಖ್ಯ — 7 ದಿನಗಳಿಗಿಂತ ಕಡಿಮೆ</string>
+    <string name="expiry_warning">ಎಚ್ಚರಿಕೆ — 30 ದಿನಗಳಿಗಿಂತ ಕಡಿಮೆ</string>
+    <string name="expiry_watch">ಗಮನಿಸಿ — 90 ದಿನಗಳಿಗಿಂತ ಕಡಿಮೆ</string>
+    <string name="expiry_days_left">%d ದಿನಗಳು ಉಳಿದಿವೆ</string>
+    <string name="expiry_discount">%d%% ರಿಯಾಯಿತಿಯನ್ನು ಸೂಚಿಸಲಾಗಿದೆ</string>
+
+    <!-- Pharmacist Screen -->
+    <string name="pharmacist_title">ಫಾರ್ಮಸಿಸ್ಟ್ ಪೋರ್ಟಲ್</string>
+    <string name="pharmacist_login">ಲಾಗಿನ್</string>
+    <string name="pharmacist_username">ಬಳಕೆದಾರ ಹೆಸರು</string>
+    <string name="pharmacist_password">ಪಾಸ್‌ವರ್ಡ್</string>
+    <string name="pharmacist_shop_select">ನಿಮ್ಮ ಅಂಗಡಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="pharmacist_manage_stock">ಸ್ಟಾಕ್ ನಿರ್ವಹಿಸಿ</string>
+    <string name="pharmacist_logout">ಲಾಗ್ಔಟ್</string>
+    <string name="pharmacist_login_error">ಅಮಾನ್ಯ ಲಾಗಿನ್. pharmacist / password ಬಳಸಿ</string>
+
+    <!-- Common -->
+    <string name="stock_format">ಸ್ಟಾಕ್: %d %s</string>
+    <string name="price_format">₹%.0f</string>
+    <string name="distance_format">%s — %.1f ಕಿ.ಮೀ</string>
+    <string name="life_saving_badge">ಜೀವ ರಕ್ಷಕ</string>
+    <string name="in_stock">ಸ್ಟಾಕ್ ಇದೆ</string>
+    <string name="out_of_stock">ಸ್ಟಾಕ್ ಖಾಲಿಯಾಗಿದೆ</string>
+    <string name="fab_content_description">ಕ್ರಿಯೆಯನ್ನು ಮಾಡಲು ವೀಕ್ಷಣೆಯನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ</string>
+    <string name="image_view_item_transform_content_description">ಐಟಂನಲ್ಲಿ ಇಮೇಜ್ ವೀಕ್ಷಣೆಯನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ</string>
+</resources>

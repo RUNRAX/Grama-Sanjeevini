@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">ग्राम-संजीविनी</string>
+    <string name="navigation_drawer_open">नेविगेशन ड्रॉर खोलें</string>
+    <string name="navigation_drawer_close">नेविगेशन ड्रॉर बंद करें</string>
+    <string name="nav_header_title">ग्राम-संजीविनी</string>
+    <string name="nav_header_subtitle">ग्रामीण फार्मेसी नेटवर्क</string>
+    <string name="nav_header_desc">नेविगेशन हेडर</string>
+    <string name="action_settings">सेटिंग्स</string>
+
+    <!-- Navigation Labels -->
+    <string name="menu_search">खोज</string>
+    <string name="menu_emergency">आपातकालीन</string>
+    <string name="menu_expiry">एक्सपायरी वॉच</string>
+    <string name="menu_pharmacist">फार्मासिस्ट</string>
+
+    <!-- Search Screen -->
+    <string name="search_hint">दवा का नाम खोजें…</string>
+    <string name="search_subtitle">5 गाँव की फार्मेसियों में खोजें</string>
+    <string name="search_no_results">कोई दवा नहीं मिली</string>
+    <string name="search_result_count">%d परिणाम मिले</string>
+
+    <!-- Emergency Screen -->
+    <string name="emergency_title">जीवन रक्षक दवाएं</string>
+    <string name="emergency_subtitle">सभी दुकानों में महत्वपूर्ण दवाओं की उपलब्धता</string>
+    <string name="emergency_available">उपलब्ध</string>
+    <string name="emergency_unavailable">स्टॉक से बाहर</string>
+
+    <!-- Expiry Watch Screen -->
+    <string name="expiry_title">एक्सपायरी वॉच</string>
+    <string name="expiry_subtitle">दवाएं जो जल्द ही समाप्त हो रही हैं — छूट पर बेचें</string>
+    <string name="expiry_critical">महत्वपूर्ण — 7 दिन से कम</string>
+    <string name="expiry_warning">चेतावनी — 30 दिन से कम</string>
+    <string name="expiry_watch">वॉच — 90 दिन से कम</string>
+    <string name="expiry_days_left">%d दिन बचे हैं</string>
+    <string name="expiry_discount">%d%% छूट का सुझाव</string>
+
+    <!-- Pharmacist Screen -->
+    <string name="pharmacist_title">फार्मासिस्ट पोर्टल</string>
+    <string name="pharmacist_login">लॉगिन</string>
+    <string name="pharmacist_username">यूज़रनेम</string>
+    <string name="pharmacist_password">पासवर्ड</string>
+    <string name="pharmacist_shop_select">अपनी दुकान चुनें</string>
+    <string name="pharmacist_manage_stock">स्टॉक प्रबंधित करें</string>
+    <string name="pharmacist_logout">लॉगआउट</string>
+    <string name="pharmacist_login_error">अमान्य क्रेडेंशियल। फार्मासिस्ट / पासवर्ड का उपयोग करें</string>
+
+    <!-- Common -->
+    <string name="stock_format">स्टॉक: %d %s</string>
+    <string name="price_format">₹%.0f</string>
+    <string name="distance_format">%s — %.1f किमी</string>
+    <string name="life_saving_badge">जीवन रक्षक</string>
+    <string name="in_stock">स्टॉक में</string>
+    <string name="out_of_stock">स्टॉक से बाहर</string>
+    <string name="fab_content_description">कार्रवाई करने के लिए एक दृश्य का प्रतिनिधित्व करता है</string>
+    <string name="image_view_item_transform_content_description">आइटम में एक छवि दृश्य का प्रतिनिधित्व करता है</string>
+</resources>

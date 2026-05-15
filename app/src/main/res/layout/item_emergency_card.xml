@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp">
+
+    <com.github.mmin18.widget.RealtimeBlurView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:realtimeBlurRadius="30dp"
+        app:realtimeOverlayColor="#1AFF3B30" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_glass_card_v2"
+        android:padding="20dp">
+
+        <View
+            android:id="@+id/pulse_indicator"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:background="@drawable/bg_stock_badge"
+            android:backgroundTint="#FF3B30"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/text_medicine_name"
+            app:layout_constraintBottom_toBottomOf="@id/text_medicine_name" />
+
+        <TextView
+            android:id="@+id/text_medicine_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/text_status"
+            app:layout_constraintStart_toEndOf="@id/pulse_indicator"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Anti-Snake Venom (ASV)" />
+
+        <TextView
+            android:id="@+id/text_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_stock_badge"
+            android:backgroundTint="#2634C759"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="4dp"
+            android:textColor="#34C759"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="IN STOCK" />
+
+        <TextView
+            android:id="@+id/text_generic"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="#66000000"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/text_medicine_name"
+            app:layout_constraintTop_toBottomOf="@id/text_medicine_name"
+            tools:text="Polyvalent Anti-Snake Venom" />
+
+        <TextView
+            android:id="@+id/text_shop_info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="#007AFF"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/text_stock"
+            app:layout_constraintStart_toStartOf="@id/text_medicine_name"
+            app:layout_constraintTop_toBottomOf="@id/text_generic"
+            tools:text="📍 Sanjeevini Medicals • 0.0 km" />
+
+        <TextView
+            android:id="@+id/text_stock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#66000000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="@id/text_shop_info"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/text_shop_info"
+            tools:text="Qty: 5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

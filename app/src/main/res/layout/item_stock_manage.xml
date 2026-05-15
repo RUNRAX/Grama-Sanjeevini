@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp">
+
+    <com.github.mmin18.widget.RealtimeBlurView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:realtimeBlurRadius="30dp"
+        app:realtimeOverlayColor="#26FFFFFF" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_glass_card_v2"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_medicine_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/btn_minus"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Paracetamol 500mg" />
+
+        <TextView
+            android:id="@+id/text_category"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="#8E8E93"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@id/btn_minus"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_medicine_name"
+            tools:text="OTC" />
+
+        <ImageButton
+            android:id="@+id/btn_minus"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/bg_search_pill_glass"
+            android:backgroundTint="#1A007AFF"
+            android:src="@drawable/ic_remove"
+            app:tint="#007AFF"
+            android:padding="8dp"
+            android:contentDescription="Decrease stock"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/text_stock_count"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_stock_count"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/btn_minus"
+            app:layout_constraintEnd_toStartOf="@id/btn_plus"
+            app:layout_constraintTop_toTopOf="@id/btn_minus"
+            tools:text="80" />
+
+        <ImageButton
+            android:id="@+id/btn_plus"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/bg_search_pill_glass"
+            android:backgroundTint="#1A007AFF"
+            android:src="@drawable/ic_add"
+            app:tint="#007AFF"
+            android:padding="8dp"
+            android:contentDescription="Increase stock"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

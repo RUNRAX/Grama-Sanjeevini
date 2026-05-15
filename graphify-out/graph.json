@@ -1,0 +1,745 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "build.gradle.kts",
+      "file_type": "code",
+      "source_file": "build.gradle.kts",
+      "source_location": "L1",
+      "id": "build_gradle_kts",
+      "community": 11,
+      "norm_label": "build.gradle.kts"
+    },
+    {
+      "label": "settings.gradle.kts",
+      "file_type": "code",
+      "source_file": "settings.gradle.kts",
+      "source_location": "L1",
+      "id": "settings_gradle_kts",
+      "community": 12,
+      "norm_label": "settings.gradle.kts"
+    },
+    {
+      "label": "build.gradle.kts",
+      "file_type": "code",
+      "source_file": "app\\build.gradle.kts",
+      "source_location": "L1",
+      "id": "app_build_gradle_kts",
+      "community": 13,
+      "norm_label": "build.gradle.kts"
+    },
+    {
+      "label": "ExampleInstrumentedTest.kt",
+      "file_type": "code",
+      "source_file": "app\\src\\androidTest\\java\\com\\example\\healthwealth\\ExampleInstrumentedTest.kt",
+      "source_location": "L1",
+      "id": "app_src_androidtest_java_com_example_healthwealth_exampleinstrumentedtest_kt",
+      "community": 5,
+      "norm_label": "exampleinstrumentedtest.kt"
+    },
+    {
+      "label": "ExampleInstrumentedTest",
+      "file_type": "code",
+      "source_file": "app\\src\\androidTest\\java\\com\\example\\healthwealth\\ExampleInstrumentedTest.kt",
+      "source_location": "L16",
+      "id": "exampleinstrumentedtest_exampleinstrumentedtest",
+      "community": 5,
+      "norm_label": "exampleinstrumentedtest"
+    },
+    {
+      "label": ".useAppContext()",
+      "file_type": "code",
+      "source_file": "app\\src\\androidTest\\java\\com\\example\\healthwealth\\ExampleInstrumentedTest.kt",
+      "source_location": "L18",
+      "id": "exampleinstrumentedtest_exampleinstrumentedtest_useappcontext",
+      "community": 5,
+      "norm_label": ".useappcontext()"
+    },
+    {
+      "label": "MainActivity.kt",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\MainActivity.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_example_healthwealth_mainactivity_kt",
+      "community": 1,
+      "norm_label": "mainactivity.kt"
+    },
+    {
+      "label": "MainActivity",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\MainActivity.kt",
+      "source_location": "L17",
+      "id": "mainactivity_mainactivity",
+      "community": 1,
+      "norm_label": "mainactivity"
+    },
+    {
+      "label": ".onCreate()",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\MainActivity.kt",
+      "source_location": "L22",
+      "id": "mainactivity_mainactivity_oncreate",
+      "community": 1,
+      "norm_label": ".oncreate()"
+    },
+    {
+      "label": ".onCreateOptionsMenu()",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\MainActivity.kt",
+      "source_location": "L60",
+      "id": "mainactivity_mainactivity_oncreateoptionsmenu",
+      "community": 1,
+      "norm_label": ".oncreateoptionsmenu()"
+    },
+    {
+      "label": ".onOptionsItemSelected()",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\MainActivity.kt",
+      "source_location": "L73",
+      "id": "mainactivity_mainactivity_onoptionsitemselected",
+      "community": 1,
+      "norm_label": ".onoptionsitemselected()"
+    },
+    {
+      "label": ".onSupportNavigateUp()",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\MainActivity.kt",
+      "source_location": "L83",
+      "id": "mainactivity_mainactivity_onsupportnavigateup",
+      "community": 1,
+      "norm_label": ".onsupportnavigateup()"
+    },
+    {
+      "label": "ReflowFragment.kt",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\reflow\\ReflowFragment.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_example_healthwealth_ui_reflow_reflowfragment_kt",
+      "community": 2,
+      "norm_label": "reflowfragment.kt"
+    },
+    {
+      "label": "ReflowFragment",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\reflow\\ReflowFragment.kt",
+      "source_location": "L12",
+      "id": "reflowfragment_reflowfragment",
+      "community": 2,
+      "norm_label": "reflowfragment"
+    },
+    {
+      "label": ".onCreateView()",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\reflow\\ReflowFragment.kt",
+      "source_location": "L20",
+      "id": "reflowfragment_reflowfragment_oncreateview",
+      "community": 2,
+      "norm_label": ".oncreateview()"
+    },
+    {
+      "label": ".onDestroyView()",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\reflow\\ReflowFragment.kt",
+      "source_location": "L38",
+      "id": "reflowfragment_reflowfragment_ondestroyview",
+      "community": 2,
+      "norm_label": ".ondestroyview()"
+    },
+    {
+      "label": "ReflowViewModel.kt",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\reflow\\ReflowViewModel.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_example_healthwealth_ui_reflow_reflowviewmodel_kt",
+      "community": 7,
+      "norm_label": "reflowviewmodel.kt"
+    },
+    {
+      "label": "ReflowViewModel",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\reflow\\ReflowViewModel.kt",
+      "source_location": "L7",
+      "id": "reflowviewmodel_reflowviewmodel",
+      "community": 7,
+      "norm_label": "reflowviewmodel"
+    },
+    {
+      "label": "SettingsFragment.kt",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\settings\\SettingsFragment.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_example_healthwealth_ui_settings_settingsfragment_kt",
+      "community": 3,
+      "norm_label": "settingsfragment.kt"
+    },
+    {
+      "label": "SettingsFragment",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\settings\\SettingsFragment.kt",
+      "source_location": "L12",
+      "id": "settingsfragment_settingsfragment",
+      "community": 3,
+      "norm_label": "settingsfragment"
+    },
+    {
+      "label": ".onCreateView()",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\settings\\SettingsFragment.kt",
+      "source_location": "L20",
+      "id": "settingsfragment_settingsfragment_oncreateview",
+      "community": 3,
+      "norm_label": ".oncreateview()"
+    },
+    {
+      "label": ".onDestroyView()",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\settings\\SettingsFragment.kt",
+      "source_location": "L38",
+      "id": "settingsfragment_settingsfragment_ondestroyview",
+      "community": 3,
+      "norm_label": ".ondestroyview()"
+    },
+    {
+      "label": "SettingsViewModel.kt",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\settings\\SettingsViewModel.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_example_healthwealth_ui_settings_settingsviewmodel_kt",
+      "community": 8,
+      "norm_label": "settingsviewmodel.kt"
+    },
+    {
+      "label": "SettingsViewModel",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\settings\\SettingsViewModel.kt",
+      "source_location": "L7",
+      "id": "settingsviewmodel_settingsviewmodel",
+      "community": 8,
+      "norm_label": "settingsviewmodel"
+    },
+    {
+      "label": "SlideshowFragment.kt",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\slideshow\\SlideshowFragment.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_example_healthwealth_ui_slideshow_slideshowfragment_kt",
+      "community": 4,
+      "norm_label": "slideshowfragment.kt"
+    },
+    {
+      "label": "SlideshowFragment",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\slideshow\\SlideshowFragment.kt",
+      "source_location": "L12",
+      "id": "slideshowfragment_slideshowfragment",
+      "community": 4,
+      "norm_label": "slideshowfragment"
+    },
+    {
+      "label": ".onCreateView()",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\slideshow\\SlideshowFragment.kt",
+      "source_location": "L20",
+      "id": "slideshowfragment_slideshowfragment_oncreateview",
+      "community": 4,
+      "norm_label": ".oncreateview()"
+    },
+    {
+      "label": ".onDestroyView()",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\slideshow\\SlideshowFragment.kt",
+      "source_location": "L38",
+      "id": "slideshowfragment_slideshowfragment_ondestroyview",
+      "community": 4,
+      "norm_label": ".ondestroyview()"
+    },
+    {
+      "label": "SlideshowViewModel.kt",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\slideshow\\SlideshowViewModel.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_example_healthwealth_ui_slideshow_slideshowviewmodel_kt",
+      "community": 9,
+      "norm_label": "slideshowviewmodel.kt"
+    },
+    {
+      "label": "SlideshowViewModel",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\slideshow\\SlideshowViewModel.kt",
+      "source_location": "L7",
+      "id": "slideshowviewmodel_slideshowviewmodel",
+      "community": 9,
+      "norm_label": "slideshowviewmodel"
+    },
+    {
+      "label": "TransformFragment.kt",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\transform\\TransformFragment.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_example_healthwealth_ui_transform_transformfragment_kt",
+      "community": 0,
+      "norm_label": "transformfragment.kt"
+    },
+    {
+      "label": "TransformFragment",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\transform\\TransformFragment.kt",
+      "source_location": "L25",
+      "id": "transformfragment_transformfragment",
+      "community": 0,
+      "norm_label": "transformfragment"
+    },
+    {
+      "label": ".onCreateView()",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\transform\\TransformFragment.kt",
+      "source_location": "L33",
+      "id": "transformfragment_transformfragment_oncreateview",
+      "community": 0,
+      "norm_label": ".oncreateview()"
+    },
+    {
+      "label": ".onDestroyView()",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\transform\\TransformFragment.kt",
+      "source_location": "L51",
+      "id": "transformfragment_transformfragment_ondestroyview",
+      "community": 0,
+      "norm_label": ".ondestroyview()"
+    },
+    {
+      "label": "TransformAdapter",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\transform\\TransformFragment.kt",
+      "source_location": "L56",
+      "id": "transformfragment_transformadapter",
+      "community": 0,
+      "norm_label": "transformadapter"
+    },
+    {
+      "label": ".onCreateViewHolder()",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\transform\\TransformFragment.kt",
+      "source_location": "L85",
+      "id": "transformfragment_transformadapter_oncreateviewholder",
+      "community": 0,
+      "norm_label": ".oncreateviewholder()"
+    },
+    {
+      "label": ".onBindViewHolder()",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\transform\\TransformFragment.kt",
+      "source_location": "L90",
+      "id": "transformfragment_transformadapter_onbindviewholder",
+      "community": 0,
+      "norm_label": ".onbindviewholder()"
+    },
+    {
+      "label": "TransformViewHolder",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\transform\\TransformFragment.kt",
+      "source_location": "L98",
+      "id": "transformfragment_transformviewholder",
+      "community": 0,
+      "norm_label": "transformviewholder"
+    },
+    {
+      "label": "TransformViewModel.kt",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\transform\\TransformViewModel.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_example_healthwealth_ui_transform_transformviewmodel_kt",
+      "community": 10,
+      "norm_label": "transformviewmodel.kt"
+    },
+    {
+      "label": "TransformViewModel",
+      "file_type": "code",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\transform\\TransformViewModel.kt",
+      "source_location": "L7",
+      "id": "transformviewmodel_transformviewmodel",
+      "community": 10,
+      "norm_label": "transformviewmodel"
+    },
+    {
+      "label": "ExampleUnitTest.kt",
+      "file_type": "code",
+      "source_file": "app\\src\\test\\java\\com\\example\\healthwealth\\ExampleUnitTest.kt",
+      "source_location": "L1",
+      "id": "app_src_test_java_com_example_healthwealth_exampleunittest_kt",
+      "community": 6,
+      "norm_label": "exampleunittest.kt"
+    },
+    {
+      "label": "ExampleUnitTest",
+      "file_type": "code",
+      "source_file": "app\\src\\test\\java\\com\\example\\healthwealth\\ExampleUnitTest.kt",
+      "source_location": "L12",
+      "id": "exampleunittest_exampleunittest",
+      "community": 6,
+      "norm_label": "exampleunittest"
+    },
+    {
+      "label": ".addition_isCorrect()",
+      "file_type": "code",
+      "source_file": "app\\src\\test\\java\\com\\example\\healthwealth\\ExampleUnitTest.kt",
+      "source_location": "L13",
+      "id": "exampleunittest_exampleunittest_addition_iscorrect",
+      "community": 6,
+      "norm_label": ".addition_iscorrect()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\androidTest\\java\\com\\example\\healthwealth\\ExampleInstrumentedTest.kt",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_src": "app_src_androidtest_java_com_example_healthwealth_exampleinstrumentedtest_kt",
+      "_tgt": "exampleinstrumentedtest_exampleinstrumentedtest",
+      "source": "app_src_androidtest_java_com_example_healthwealth_exampleinstrumentedtest_kt",
+      "target": "exampleinstrumentedtest_exampleinstrumentedtest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\androidTest\\java\\com\\example\\healthwealth\\ExampleInstrumentedTest.kt",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_src": "exampleinstrumentedtest_exampleinstrumentedtest",
+      "_tgt": "exampleinstrumentedtest_exampleinstrumentedtest_useappcontext",
+      "source": "exampleinstrumentedtest_exampleinstrumentedtest",
+      "target": "exampleinstrumentedtest_exampleinstrumentedtest_useappcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\MainActivity.kt",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_src": "app_src_main_java_com_example_healthwealth_mainactivity_kt",
+      "_tgt": "mainactivity_mainactivity",
+      "source": "app_src_main_java_com_example_healthwealth_mainactivity_kt",
+      "target": "mainactivity_mainactivity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\MainActivity.kt",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_src": "mainactivity_mainactivity",
+      "_tgt": "mainactivity_mainactivity_oncreate",
+      "source": "mainactivity_mainactivity",
+      "target": "mainactivity_mainactivity_oncreate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\MainActivity.kt",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_src": "mainactivity_mainactivity",
+      "_tgt": "mainactivity_mainactivity_oncreateoptionsmenu",
+      "source": "mainactivity_mainactivity",
+      "target": "mainactivity_mainactivity_oncreateoptionsmenu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\MainActivity.kt",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_src": "mainactivity_mainactivity",
+      "_tgt": "mainactivity_mainactivity_onoptionsitemselected",
+      "source": "mainactivity_mainactivity",
+      "target": "mainactivity_mainactivity_onoptionsitemselected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\MainActivity.kt",
+      "source_location": "L83",
+      "weight": 1.0,
+      "_src": "mainactivity_mainactivity",
+      "_tgt": "mainactivity_mainactivity_onsupportnavigateup",
+      "source": "mainactivity_mainactivity",
+      "target": "mainactivity_mainactivity_onsupportnavigateup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\reflow\\ReflowFragment.kt",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_src": "app_src_main_java_com_example_healthwealth_ui_reflow_reflowfragment_kt",
+      "_tgt": "reflowfragment_reflowfragment",
+      "source": "app_src_main_java_com_example_healthwealth_ui_reflow_reflowfragment_kt",
+      "target": "reflowfragment_reflowfragment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\reflow\\ReflowFragment.kt",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_src": "reflowfragment_reflowfragment",
+      "_tgt": "reflowfragment_reflowfragment_oncreateview",
+      "source": "reflowfragment_reflowfragment",
+      "target": "reflowfragment_reflowfragment_oncreateview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\reflow\\ReflowFragment.kt",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_src": "reflowfragment_reflowfragment",
+      "_tgt": "reflowfragment_reflowfragment_ondestroyview",
+      "source": "reflowfragment_reflowfragment",
+      "target": "reflowfragment_reflowfragment_ondestroyview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\reflow\\ReflowViewModel.kt",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "app_src_main_java_com_example_healthwealth_ui_reflow_reflowviewmodel_kt",
+      "_tgt": "reflowviewmodel_reflowviewmodel",
+      "source": "app_src_main_java_com_example_healthwealth_ui_reflow_reflowviewmodel_kt",
+      "target": "reflowviewmodel_reflowviewmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\settings\\SettingsFragment.kt",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_src": "app_src_main_java_com_example_healthwealth_ui_settings_settingsfragment_kt",
+      "_tgt": "settingsfragment_settingsfragment",
+      "source": "app_src_main_java_com_example_healthwealth_ui_settings_settingsfragment_kt",
+      "target": "settingsfragment_settingsfragment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\settings\\SettingsFragment.kt",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_src": "settingsfragment_settingsfragment",
+      "_tgt": "settingsfragment_settingsfragment_oncreateview",
+      "source": "settingsfragment_settingsfragment",
+      "target": "settingsfragment_settingsfragment_oncreateview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\settings\\SettingsFragment.kt",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_src": "settingsfragment_settingsfragment",
+      "_tgt": "settingsfragment_settingsfragment_ondestroyview",
+      "source": "settingsfragment_settingsfragment",
+      "target": "settingsfragment_settingsfragment_ondestroyview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\settings\\SettingsViewModel.kt",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "app_src_main_java_com_example_healthwealth_ui_settings_settingsviewmodel_kt",
+      "_tgt": "settingsviewmodel_settingsviewmodel",
+      "source": "app_src_main_java_com_example_healthwealth_ui_settings_settingsviewmodel_kt",
+      "target": "settingsviewmodel_settingsviewmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\slideshow\\SlideshowFragment.kt",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_src": "app_src_main_java_com_example_healthwealth_ui_slideshow_slideshowfragment_kt",
+      "_tgt": "slideshowfragment_slideshowfragment",
+      "source": "app_src_main_java_com_example_healthwealth_ui_slideshow_slideshowfragment_kt",
+      "target": "slideshowfragment_slideshowfragment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\slideshow\\SlideshowFragment.kt",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_src": "slideshowfragment_slideshowfragment",
+      "_tgt": "slideshowfragment_slideshowfragment_oncreateview",
+      "source": "slideshowfragment_slideshowfragment",
+      "target": "slideshowfragment_slideshowfragment_oncreateview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\slideshow\\SlideshowFragment.kt",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_src": "slideshowfragment_slideshowfragment",
+      "_tgt": "slideshowfragment_slideshowfragment_ondestroyview",
+      "source": "slideshowfragment_slideshowfragment",
+      "target": "slideshowfragment_slideshowfragment_ondestroyview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\slideshow\\SlideshowViewModel.kt",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "app_src_main_java_com_example_healthwealth_ui_slideshow_slideshowviewmodel_kt",
+      "_tgt": "slideshowviewmodel_slideshowviewmodel",
+      "source": "app_src_main_java_com_example_healthwealth_ui_slideshow_slideshowviewmodel_kt",
+      "target": "slideshowviewmodel_slideshowviewmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\transform\\TransformFragment.kt",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_src": "app_src_main_java_com_example_healthwealth_ui_transform_transformfragment_kt",
+      "_tgt": "transformfragment_transformfragment",
+      "source": "app_src_main_java_com_example_healthwealth_ui_transform_transformfragment_kt",
+      "target": "transformfragment_transformfragment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\transform\\TransformFragment.kt",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_src": "app_src_main_java_com_example_healthwealth_ui_transform_transformfragment_kt",
+      "_tgt": "transformfragment_transformadapter",
+      "source": "app_src_main_java_com_example_healthwealth_ui_transform_transformfragment_kt",
+      "target": "transformfragment_transformadapter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\transform\\TransformFragment.kt",
+      "source_location": "L98",
+      "weight": 1.0,
+      "_src": "app_src_main_java_com_example_healthwealth_ui_transform_transformfragment_kt",
+      "_tgt": "transformfragment_transformviewholder",
+      "source": "app_src_main_java_com_example_healthwealth_ui_transform_transformfragment_kt",
+      "target": "transformfragment_transformviewholder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\transform\\TransformFragment.kt",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_src": "transformfragment_transformfragment",
+      "_tgt": "transformfragment_transformfragment_oncreateview",
+      "source": "transformfragment_transformfragment",
+      "target": "transformfragment_transformfragment_oncreateview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\transform\\TransformFragment.kt",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_src": "transformfragment_transformfragment",
+      "_tgt": "transformfragment_transformfragment_ondestroyview",
+      "source": "transformfragment_transformfragment",
+      "target": "transformfragment_transformfragment_ondestroyview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\transform\\TransformFragment.kt",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_src": "transformfragment_transformadapter",
+      "_tgt": "transformfragment_transformadapter_oncreateviewholder",
+      "source": "transformfragment_transformadapter",
+      "target": "transformfragment_transformadapter_oncreateviewholder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\transform\\TransformFragment.kt",
+      "source_location": "L90",
+      "weight": 1.0,
+      "_src": "transformfragment_transformadapter",
+      "_tgt": "transformfragment_transformadapter_onbindviewholder",
+      "source": "transformfragment_transformadapter",
+      "target": "transformfragment_transformadapter_onbindviewholder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\main\\java\\com\\example\\healthwealth\\ui\\transform\\TransformViewModel.kt",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "app_src_main_java_com_example_healthwealth_ui_transform_transformviewmodel_kt",
+      "_tgt": "transformviewmodel_transformviewmodel",
+      "source": "app_src_main_java_com_example_healthwealth_ui_transform_transformviewmodel_kt",
+      "target": "transformviewmodel_transformviewmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\test\\java\\com\\example\\healthwealth\\ExampleUnitTest.kt",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_src": "app_src_test_java_com_example_healthwealth_exampleunittest_kt",
+      "_tgt": "exampleunittest_exampleunittest",
+      "source": "app_src_test_java_com_example_healthwealth_exampleunittest_kt",
+      "target": "exampleunittest_exampleunittest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\src\\test\\java\\com\\example\\healthwealth\\ExampleUnitTest.kt",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_src": "exampleunittest_exampleunittest",
+      "_tgt": "exampleunittest_exampleunittest_addition_iscorrect",
+      "source": "exampleunittest_exampleunittest",
+      "target": "exampleunittest_exampleunittest_addition_iscorrect",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

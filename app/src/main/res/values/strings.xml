@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Grama-Sanjeevini</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Grama-Sanjeevini</string>
+    <string name="nav_header_subtitle">Rural Pharmacy Network</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Navigation Labels -->
+    <string name="menu_search">Search</string>
+    <string name="menu_emergency">Emergency</string>
+    <string name="menu_expiry">Expiry Watch</string>
+    <string name="menu_pharmacist">Pharmacist</string>
+
+    <!-- Search Screen -->
+    <string name="search_hint">Search medicine name…</string>
+    <string name="search_subtitle">Search across 5 village pharmacies</string>
+    <string name="search_no_results">No medicines found</string>
+    <string name="search_result_count">%d results found</string>
+
+    <!-- Emergency Screen -->
+    <string name="emergency_title">Life-Saving Drugs</string>
+    <string name="emergency_subtitle">Critical medicine availability across all shops</string>
+    <string name="emergency_available">Available</string>
+    <string name="emergency_unavailable">Out of Stock</string>
+
+    <!-- Expiry Watch Screen -->
+    <string name="expiry_title">Expiry Watch</string>
+    <string name="expiry_subtitle">Medicines expiring soon — sell at discount</string>
+    <string name="expiry_critical">Critical — Less than 7 days</string>
+    <string name="expiry_warning">Warning — Less than 30 days</string>
+    <string name="expiry_watch">Watch — Less than 90 days</string>
+    <string name="expiry_days_left">%d days left</string>
+    <string name="expiry_discount">%d%% discount suggested</string>
+
+    <!-- Pharmacist Screen -->
+    <string name="pharmacist_title">Pharmacist Portal</string>
+    <string name="pharmacist_login">Login</string>
+    <string name="pharmacist_username">Username</string>
+    <string name="pharmacist_password">Password</string>
+    <string name="pharmacist_shop_select">Select your shop</string>
+    <string name="pharmacist_manage_stock">Manage Stock</string>
+    <string name="pharmacist_logout">Logout</string>
+    <string name="pharmacist_login_error">Invalid credentials. Use pharmacist / password</string>
+
+    <!-- Common -->
+    <string name="stock_format">Stock: %d %s</string>
+    <string name="price_format">₹%.0f</string>
+    <string name="distance_format">%s — %.1f km</string>
+    <string name="life_saving_badge">LIFE SAVING</string>
+    <string name="in_stock">In Stock</string>
+    <string name="out_of_stock">Out of Stock</string>
+    <string name="fab_content_description">Represents a view to invoke an action</string>
+    <string name="image_view_item_transform_content_description">Represents an image view in the item</string>
+</resources>

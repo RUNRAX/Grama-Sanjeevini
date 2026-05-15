@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Night theme inherits from the base - the design IS dark-first -->
+    <style name="Theme.HEALTHWEALTH" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryContainer">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        <item name="colorSecondary">@color/primary_light</item>
+        <item name="colorSecondaryContainer">@color/bg_elevated</item>
+        <item name="colorOnSecondary">@color/text_on_primary</item>
+        <item name="colorSurface">@color/bg_surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorSurfaceVariant">@color/bg_elevated</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorError">@color/emergency</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/nav_bg</item>
+        <item name="android:windowBackground">@color/bg_deep</item>
+    </style>
+</resources>

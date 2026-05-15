@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_pharmacist"
+        android:icon="@drawable/ic_pharmacist"
+        android:title="@string/menu_pharmacist" />
+        
+    <item
+        android:id="@+id/action_language"
+        android:title="Language">
+        <menu>
+            <item
+                android:id="@+id/lang_en"
+                android:title="English" />
+            <item
+                android:id="@+id/lang_hi"
+                android:title="हिन्दी" />
+            <item
+                android:id="@+id/lang_kn"
+                android:title="ಕನ್ನಡ" />
+        </menu>
+    </item>
+</menu>

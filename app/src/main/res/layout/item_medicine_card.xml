@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp">
+
+    <!-- Blur Background -->
+    <com.github.mmin18.widget.RealtimeBlurView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:realtimeBlurRadius="30dp"
+        app:realtimeOverlayColor="#26FFFFFF" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/card_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_glass_card_v2"
+        android:padding="20dp">
+
+        <!-- Medicine Name -->
+        <TextView
+            android:id="@+id/text_medicine_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/text_price"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Paracetamol 500mg" />
+
+        <TextView
+            android:id="@+id/text_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="₹15.00" />
+
+        <TextView
+            android:id="@+id/text_generic_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="#66000000"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_medicine_name"
+            tools:text="Acetaminophen" />
+
+        <!-- Info Row -->
+        <LinearLayout
+            android:id="@+id/layout_shop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/text_generic_name">
+
+            <TextView
+                android:id="@+id/text_shop_info"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#333333"
+                android:textSize="14sp"
+                tools:text="Sanjeevini Medicals • 1.2 km" />
+
+            <TextView
+                android:id="@+id/text_stock_badge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_stock_badge"
+                android:backgroundTint="#2634C759"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="4dp"
+                android:textColor="#34C759"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:text="45 Available" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/badge_life_saving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_stock_badge"
+            android:backgroundTint="#26FF3B30"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="6dp"
+            android:text="URGENT / LIFE SAVING"
+            android:textColor="#FF3B30"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_shop"
+            tools:visibility="visible" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

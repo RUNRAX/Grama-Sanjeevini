@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_search">
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.example.healthwealth.ui.search.SearchFragment"
+        android:label="@string/menu_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/nav_emergency"
+        android:name="com.example.healthwealth.ui.emergency.EmergencyFragment"
+        android:label="@string/menu_emergency"
+        tools:layout="@layout/fragment_emergency" />
+
+    <fragment
+        android:id="@+id/nav_expiry"
+        android:name="com.example.healthwealth.ui.expiry.ExpiryFragment"
+        android:label="@string/menu_expiry"
+        tools:layout="@layout/fragment_expiry" />
+
+    <fragment
+        android:id="@+id/nav_pharmacist"
+        android:name="com.example.healthwealth.ui.pharmacist.PharmacistFragment"
+        android:label="@string/menu_pharmacist"
+        tools:layout="@layout/fragment_pharmacist" />
+</navigation>
