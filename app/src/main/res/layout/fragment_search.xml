@@ -4,8 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_main_gradient"
+    android:background="@drawable/bg_cyber_gradient"
     tools:context=".ui.search.SearchFragment">
+
+    <!-- Decorative Bubbles -->
+    <View
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="-50dp"
+        android:layout_marginEnd="-50dp"
+        android:background="@drawable/avatar_5"
+        android:alpha="0.3" />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="100dp"
+        android:layout_marginStart="-30dp"
+        android:background="@drawable/avatar_8"
+        android:alpha="0.2" />
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar"
@@ -25,57 +44,59 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:paddingHorizontal="24dp"
-                android:paddingTop="54dp"
+                android:paddingTop="60dp"
                 android:paddingBottom="12dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Good morning,"
-                    android:textColor="#8E8E93"
-                    android:textSize="15sp"
+                    android:text="Discover"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:textAllCaps="true"
+                    android:letterSpacing="0.1"
                     android:alpha="0.8" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="HealthWealth ✨"
-                    android:textColor="#000000"
-                    android:textSize="32sp"
+                    android:text="HealthWealth"
+                    android:textColor="#FFFFFF"
+                    android:textSize="36sp"
                     android:textStyle="bold"
-                    android:layout_marginTop="2dp" />
+                    android:layout_marginTop="4dp" />
 
-                <!-- Glass Search Pill -->
+                <!-- Cyber Search Pill -->
                 <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="52dp"
-                    android:layout_marginTop="24dp">
+                    android:layout_height="56dp"
+                    android:layout_marginTop="28dp">
 
                     <com.github.mmin18.widget.RealtimeBlurView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        app:realtimeBlurRadius="20dp"
-                        app:realtimeOverlayColor="#1AFFFFFF" />
+                        app:realtimeBlurRadius="25dp"
+                        app:realtimeOverlayColor="#33FFFFFF" />
 
                     <EditText
                         android:id="@+id/edit_search"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/bg_search_pill_glass"
+                        android:background="@drawable/bg_cyber_pill"
                         android:drawableStart="@drawable/ic_search"
-                        android:drawablePadding="12dp"
-                        android:drawableTint="#000000"
+                        android:drawablePadding="14dp"
+                        android:drawableTint="#FFFFFF"
                         android:gravity="center_vertical"
-                        android:hint="Search medicines..."
-                        android:paddingHorizontal="16dp"
-                        android:textColor="#000000"
-                        android:textColorHint="#66000000"
+                        android:hint="Search medicine or symptoms..."
+                        android:paddingHorizontal="20dp"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#CCFFFFFF"
                         android:textSize="16sp"
                         android:autofillHints="none"
                         android:inputType="text" />
                 </FrameLayout>
 
-                <!-- Categories Scroll -->
+                <!-- Premium Chips -->
                 <HorizontalScrollView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -89,7 +110,6 @@
                         app:singleLine="true"
                         app:singleSelection="true"
                         app:selectionRequired="true">
-                        <!-- Chips added dynamically -->
                     </com.google.android.material.chip.ChipGroup>
                 </HorizontalScrollView>
             </LinearLayout>
@@ -102,7 +122,7 @@
         android:layout_height="match_parent"
         android:clipToPadding="false"
         android:paddingHorizontal="20dp"
-        android:paddingBottom="100dp"
+        android:paddingBottom="120dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
     <!-- Empty State -->
@@ -116,16 +136,18 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="No results found"
-            android:textColor="#8E8E93"
-            android:textSize="17sp" />
+            android:text="Scanning for results..."
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:alpha="0.6" />
     </LinearLayout>
 
     <ProgressBar
         android:id="@+id/progress_bar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:layout_gravity="center"
+        android:indeterminateTint="#FFFFFF"
         android:visibility="gone" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

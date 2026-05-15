@@ -4,48 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="16dp">
+    android:layout_marginBottom="20dp">
 
     <com.github.mmin18.widget.RealtimeBlurView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:realtimeBlurRadius="30dp"
-        app:realtimeOverlayColor="#1AFF9500" />
+        app:realtimeOverlayColor="#26FFCC00" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_glass_card_v2"
-        android:padding="20dp">
-
-        <View
-            android:id="@+id/urgency_strip"
-            android:layout_width="4dp"
-            android:layout_height="0dp"
-            android:background="@drawable/bg_stock_badge"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:backgroundTint="#FF3B30" />
+        android:background="@drawable/bg_cyber_glass_card"
+        android:padding="24dp">
 
         <TextView
             android:id="@+id/text_medicine_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
             android:textColor="#000000"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toStartOf="@id/text_days_left"
-            app:layout_constraintStart_toEndOf="@id/urgency_strip"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="Ciprofloxacin 500mg" />
+            tools:text="Ciprofloxacin 500" />
 
         <TextView
             android:id="@+id/text_days_left"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#FF3B30"
+            android:textColor="#E65100"
             android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -57,8 +46,9 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:textColor="#66000000"
+            android:textColor="#4A148C"
             android:textSize="14sp"
+            android:alpha="0.7"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@id/text_medicine_name"
             app:layout_constraintTop_toBottomOf="@id/text_medicine_name"
@@ -68,28 +58,29 @@
             android:id="@+id/text_discount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/bg_stock_badge"
-            android:backgroundTint="#26007AFF"
-            android:paddingHorizontal="10dp"
-            android:paddingVertical="4dp"
-            android:textColor="#007AFF"
-            android:textSize="12sp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_cyber_pill"
+            android:backgroundTint="#264A148C"
+            android:paddingHorizontal="14dp"
+            android:paddingVertical="8dp"
+            android:textColor="#4A148C"
+            android:textSize="13sp"
             android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@id/text_medicine_name"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/text_shop_name"
-            tools:text="50% OFF SUGGESTED" />
+            tools:text="🔥 50% REBATE" />
 
         <TextView
             android:id="@+id/text_stock_info"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#66000000"
-            android:textSize="12sp"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@id/text_discount"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@id/text_discount"
-            tools:text="25 strips" />
+            tools:text="25 in stock" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
