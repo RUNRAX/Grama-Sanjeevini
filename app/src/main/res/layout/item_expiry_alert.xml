@@ -82,5 +82,14 @@
             app:layout_constraintTop_toTopOf="@id/text_discount"
             tools:text="25 in stock" />
 
+        <!-- Urgency Strip (Required by Adapter) -->
+        <View
+            android:id="@+id/urgency_strip"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

@@ -60,7 +60,6 @@ class MedicineAdapter :
             } else {
                 binding.badgeLifeSaving.visibility = View.GONE
             }
-            binding.root.setBackgroundResource(R.drawable.bg_ios_card)
         }
     }
 
